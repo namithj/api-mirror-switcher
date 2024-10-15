@@ -5,3 +5,4 @@ if ( ! defined( 'API_MIRROR' ) ) {
 	define( 'API_MIRROR', 'api.freewordpress.org' );
 }
 ```
+Use at your own risk.
