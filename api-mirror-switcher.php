@@ -14,9 +14,9 @@ if ( ! defined( 'API_DEFAULT' ) ) {
 	define( 'API_DEFAULT', 'api.wordpress.org' );
 }
 
-if ( ! defined( 'API_MIRROR' ) ) {
-	define( 'API_MIRROR', 'api.wordpress.org' );
-}
+/*if ( ! defined( 'API_MIRROR' ) ) {
+	define( 'API_MIRROR', 'api.freewordpress.org' );
+}*/
 
 // Hook into plugin activation to run the replacement.
 register_activation_hook( __FILE__, 'api_mirror_switcher_replace_api_domain_in_files' );
